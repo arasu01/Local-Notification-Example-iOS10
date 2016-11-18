@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBa-Sc-umV">
-                                <rect key="frame" x="112" y="312" width="150" height="44"/>
+                                <rect key="frame" x="112" y="247" width="150" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="1GY-GW-cNO"/>
                                     <constraint firstAttribute="width" constant="150" id="lIx-ZQ-E4P"/>
@@ -33,11 +33,39 @@
                                     <action selector="sampleButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KEP-FI-edB"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VuU-jO-Ab5">
+                                <rect key="frame" x="112" y="311" width="150" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Hbq-un-5GN"/>
+                                    <constraint firstAttribute="width" constant="150" id="nVP-cF-cKb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Image Notification"/>
+                                <connections>
+                                    <action selector="sampleImageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SZ0-W7-fhQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhb-7o-QS4">
+                                <rect key="frame" x="112" y="375" width="150" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="2Vj-G6-D64"/>
+                                    <constraint firstAttribute="width" constant="150" id="xGG-4A-qJz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Video Notification"/>
+                                <connections>
+                                    <action selector="sampleVideoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hv3-WT-zhR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="UBa-Sc-umV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qzh-uH-jnF"/>
-                            <constraint firstItem="UBa-Sc-umV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hjl-Ia-bG1"/>
+                            <constraint firstItem="uhb-7o-QS4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1d8-ES-la7"/>
+                            <constraint firstItem="UBa-Sc-umV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Lc-bi-ZNI"/>
+                            <constraint firstItem="VuU-jO-Ab5" firstAttribute="top" secondItem="UBa-Sc-umV" secondAttribute="bottom" constant="20" id="Ec5-9g-ynx"/>
+                            <constraint firstItem="uhb-7o-QS4" firstAttribute="top" secondItem="VuU-jO-Ab5" secondAttribute="bottom" constant="20" id="lHp-g8-eEY"/>
+                            <constraint firstItem="VuU-jO-Ab5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="niJ-e4-KVB"/>
+                            <constraint firstItem="VuU-jO-Ab5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yuJ-6p-nrk"/>
                         </constraints>
                     </view>
                 </viewController>
