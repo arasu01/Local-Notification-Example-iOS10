@@ -13,6 +13,9 @@
 		190D03E51DCC6EF800C98E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190D03DE1DCC6EF800C98E0C /* Main.storyboard */; };
 		190D03E61DCC6EF800C98E0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 190D03E21DCC6EF800C98E0C /* ViewController.m */; };
 		190D03E81DCC6F4A00C98E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190D03E71DCC6F4A00C98E0C /* Assets.xcassets */; };
+		197D51951DDF09C400585EFF /* superquest.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 197D51931DDF09C400585EFF /* superquest.mp4 */; };
+		197D51961DDF09C400585EFF /* superquest_attack.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 197D51941DDF09C400585EFF /* superquest_attack.mp4 */; };
+		197D51981DDF0D0700585EFF /* watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 197D51971DDF0D0700585EFF /* watch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		190D03E11DCC6EF800C98E0C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		190D03E21DCC6EF800C98E0C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		190D03E71DCC6F4A00C98E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		197D51931DDF09C400585EFF /* superquest.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = superquest.mp4; sourceTree = "<group>"; };
+		197D51941DDF09C400585EFF /* superquest_attack.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = superquest_attack.mp4; sourceTree = "<group>"; };
+		197D51971DDF0D0700585EFF /* watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,8 @@
 		190D03DA1DCC6EF800C98E0C /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				197D51971DDF0D0700585EFF /* watch.png */,
+				197D51921DDF09C400585EFF /* movies */,
 				190D03E71DCC6F4A00C98E0C /* Assets.xcassets */,
 			);
 			path = Assets;
@@ -109,6 +117,15 @@
 				190D03E21DCC6EF800C98E0C /* ViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		197D51921DDF09C400585EFF /* movies */ = {
+			isa = PBXGroup;
+			children = (
+				197D51931DDF09C400585EFF /* superquest.mp4 */,
+				197D51941DDF09C400585EFF /* superquest_attack.mp4 */,
+			);
+			path = movies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,7 +188,10 @@
 			files = (
 				190D03E51DCC6EF800C98E0C /* Main.storyboard in Resources */,
 				190D03E81DCC6F4A00C98E0C /* Assets.xcassets in Resources */,
+				197D51951DDF09C400585EFF /* superquest.mp4 in Resources */,
+				197D51961DDF09C400585EFF /* superquest_attack.mp4 in Resources */,
 				190D03E41DCC6EF800C98E0C /* LaunchScreen.storyboard in Resources */,
+				197D51981DDF0D0700585EFF /* watch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
