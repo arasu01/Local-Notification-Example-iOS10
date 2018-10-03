@@ -78,7 +78,7 @@
 }
 
 // The method will be called on the delegate when the user responded to the notification by opening the application, dismissing the notification or choosing a UNNotificationAction. The delegate must be set before the application returns from applicationDidFinishLaunching:.
-- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void(^)())completionHandler {
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)(void))completionHandler {
     
     if ([response.notification.request.identifier isEqualToString:@"UYLLocalNotification"]) {
         
@@ -98,6 +98,5 @@
 - (void)application:(UIApplication *)application didUpdateUserActivity:(NSUserActivity *)userActivity {
     
 }
-
 
 @end
