@@ -15,7 +15,6 @@
 
 @implementation ViewController
 
-
 #pragma mark - View Life Cycle Methods
 
 - (void)viewDidLoad {
@@ -24,7 +23,6 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(scheduleLocalNotifications) name:@"SnoozeNotifcation" object:nil];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -73,7 +71,6 @@
 }
 
 #pragma mark - Custom Methods
-
 
 - (void)scheduleLocalNotifications {
     UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
