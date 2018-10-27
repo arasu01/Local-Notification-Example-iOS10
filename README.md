@@ -10,25 +10,25 @@
 Example for Local Notification using UserNotifications in iOS 10
 
 
-##How to build
+## How to build
 
 Just build with Xcode 8.0 and later.
 
-##Contents
+## Contents
 
-###Simple Notification 
+### Simple Notification 
 
 Local notification using UserNotifications framework.
 
 <img src="README_resources/LocalNotification.png" width="200" alighn="left"> 
 
-###Notification with Image 
+### Notification with Image 
 
 Local notification with an image using UserNotifications framework.
 
 <img src="README_resources/LocalNotificationImage.png" width="200" alighn="left"> 
 
-###Notification with Video 
+### Notification with Video 
 
 Local notification with an video using UserNotifications framework.
 
